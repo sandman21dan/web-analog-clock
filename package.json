@@ -24,5 +24,13 @@
     "parcel": "^2.0.0-beta.3.1",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandman21dan/web-analog-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandman21dan/web-analog-clock/issues"
+  },
+  "homepage": "https://github.com/sandman21dan/web-analog-clock#readme"
 }
