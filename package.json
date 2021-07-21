@@ -2,10 +2,11 @@
   "name": "web-analog-clock",
   "version": "1.0.0",
   "description": "An analog clock built using web technologies",
-  "main": "index.js",
+  "browser": "dist/index.html",
   "scripts": {
     "start": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html",
+    "deploy": "npm run build -- --public-url /web-analog-clock/ && gh-pages -d dist",
     "test": "jest"
   },
   "keywords": [
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.3.1",
     "@types/jest": "^26.0.24",
+    "gh-pages": "^3.2.3",
     "jest": "^27.0.6",
     "parcel": "^2.0.0-beta.3.1",
     "ts-jest": "^27.0.3",
